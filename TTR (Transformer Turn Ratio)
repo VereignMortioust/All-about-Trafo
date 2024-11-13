@@ -1,0 +1,63 @@
+** Transformer Turn Ratio Test
+Suatu metode pengukuran perbandingan belitan Primer (Vp) dengan belitan Sekunder (Vs) pada Trasformator
+
+Metode pengukuran ini ialah untuk mengetahui kondisi belitan Primer atau belitan Sekunder dari ketiga Phase nya (R,S,T) apakah masih imbang atau bahkan sudah short,
+Karena hal ini ada kaitannya dengan tegangan keluaran pada Transformator.
+
+Sebelum melakukan pengukuran ini ada berbagai langkah yang mesti harus di pahami ;
+1. Vektor Group
+
+Dyn-5 : D >> Delta - menunjukkan belitan Primer dan Transformator berkoneksi Delta.
+        yn >> Wye menunjukkan belitan Sekunder dan Trafo berkoneksi WYE dengan titik bintang (N) yang di keluarkan atau bisa disebut dengan 3 phasa 4 kawat
+        5 >> Menunjukkan phase pertama atau phase (r) pada belitan sekunder berada pada arah pukul 5 atau terjadi pergeseran sudut sebesar 120 deq antara phase pertama belitan Primer (R) dengan phase kedua belitan Sekunder (r)
+
+Huruf besar identik dengan belitan Primer,
+Huruf kecil identik dengan belitan Sekunder,
+Angka terakhir identik dengan penunjukan arah jarum jam.
+
+2. Rumus Perhitungan TTR
+
+Data diatas menunjukan trafo dengan jumlah 5 taping tegangan primer +2 x 5% & -2 x 5% dan tegangan sekunder 400 V / 230 V
+
+Hasil perhitungan TTR dengan menggunakan rumus Dyn (Kolom paling atas pada Tabel 1)
+>        Taping  1 (22.000 V / 400 V)
+A = Vp ÷ (Vs÷ )
+A = 22.000 ÷ (400 ÷  )
+A = 95,262
+
+>         Taping 2 (21.000 V / 400 V)
+A = Vp ÷ (Vs÷√3)
+A = 21.000 ÷ (400 ÷ √3 )
+      A = 90,932
+
+>         Taping 3 (20.000 V / 400 V)
+A = Vp ÷ (Vs÷√3)
+A = 20.000 ÷ (400 ÷ √3 )
+A = 86,602     
+                              
+>        Taping 4 (19. 000 V / 400 V)
+A = Vp ÷ (Vs÷√3)
+A = 19.000 ÷ (400 ÷ √3 )
+A = 82,272 
+                      
+>         Taping 5 (18.000 V / 400 V)
+A = Vp ÷ (Vs÷√3)
+A = 18.000 ÷ (400 ÷ √3 )
+A = 77,942
+
+Dimana :
+A   : Angka tranformasi
+Vp  : Tegangan primer (Tegangan taping)
+Vs  : Tegangan sekunder
+√3  : Rumus 3 phase
+
+Selanjutnya hasil pengukuran trafo dengan menggunakan TTR dibandingkan dengan hasil perhitungan toleransi, tabel dibawah menunjukan dua hasil pengukuran trafo.
+
+Rumus : 
+Batas Maksimal : A x 1,005
+Batas Minimal   : A x 0,995
+
+Nilai hasil pengukuran real dengan menggunakan alat ukur TTR yaitu ke tiga phase R,S dan T.
+Dalam kondisi baik harusnya hasil pengukuran tidak boleh melebihi angka batas maksimal dan tidak boleh kurang dari angka batas minimal (Standar Toleransi) dan sebaliknya.
+
+##### Source : https://servistrafojawatengah.blogspot.com/2018/12/transformer-turn-ratio.html
